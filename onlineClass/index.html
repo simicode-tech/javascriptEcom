@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    .add {
+      background-color: blue;
+      color: white;
+      text-transform: capitalize;
+    }
+    .list li {
+      list-style-type: none;
+      padding: 10px;
+    }
+    .list li a {
+      text-decoration: none;
+    }
+    .active {
+      background-color: blue;
+      color: white;
+      padding: 10px;
+    }
+
+    .list {
+      display: flex;
+      justify-content: center;
+    }
+  </style>
+  <body>
+    <p id="intro">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem inventore id
+      odit beatae, mollitia autem sed rerum iusto earum atque provident
+      repudiandae voluptas unde quisquam, fuga in, dolorum quod itaque?
+    </p>
+    <div id="list">Welcome back to javascript</div>
+    <div id="display"></div>
+    <div id="result">Remove me</div>
+    <div id="removeResult">
+      <h1>Nigeria</h1>
+      <h2>Ghana</h2>
+      <h3>Togo</h3>
+    </div>
+    <div>
+      <ul id="listItem"></ul>
+    </div>
+    <button onclick="sayHello()">click me</button><br />
+    <img
+      src="images1/profile.jpg"
+      alt=""
+      onmouseover="over()"
+      onmouseout="out()"
+    />
+    <h2 id="addNumber">0</h2>
+    <button id="addClick">Add</button>
+    <div>
+      <h1 class="msg">Welcome to JavaScript training</h1>
+      <button type="button" id="btn">Toggle Message</button>
+    </div>
+    <div>
+      <ul class="list" id="nav">
+        <li class="link active"><a href="#">Home</a></li>
+        <li class="link"><a href="#">About</a></li>
+        <li class="link"><a href="#">login</a></li>
+      </ul>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
